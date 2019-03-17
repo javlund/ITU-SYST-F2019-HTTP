@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Navne</title>
+  </head>
+  <body onSubmit="tjekNavn(event);">
+    <form>
+      <fieldset>
+        <p>
+          Navn: <input type="text" id="navn" />
+        </p>
+        <p>
+          Land:
+          <select>
+            <option value="dk">Danmark</option>
+            <option value="us">USA</option>
+          </select>
+        </p>
+        <p>
+          <button>Tjek</button>
+        </p>
+      </fieldset>
+      <pre id="resultat"></pre>
+    </form>
+    <script src="fetching.js"></script>
+  </body>
+</html>
